@@ -1,0 +1,17 @@
+.item {
+    animation: animate 25s linear infinite;
+    padding: 0 30px;
+}
+
+/*.item:hover {*/
+/*    animation-play-state: paused;*/
+/*}*/
+
+@keyframes animate {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-1800px, 0, 0);
+    }
+}

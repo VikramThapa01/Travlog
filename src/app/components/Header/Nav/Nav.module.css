@@ -1,0 +1,45 @@
+
+.navContainer{
+    width: 427px;
+    height: 17px;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    text-decoration: none;
+    position: relative;
+}
+
+.navAnchor{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #222831;
+    text-decoration: none;
+}
+
+.navAnchor:hover{
+    display: inline-block;
+    border-radius: 100px;
+    /*background: linear-gradient(280.84deg, #5D50C6 7.11%, #F85E9F 93.54%);*/
+    color: #F85E9F;
+}
+
+.home{
+    width: 39px;
+    height: 17px;
+    color: #222831;
+}
+
+.discovery{
+    width: 56px;
+    height: 17px;
+}
+
+.spdeal{
+    white-space: nowrap;
+}
+
+.contact{
+    width: 51px;
+    height: 17px;
+}

@@ -1,0 +1,190 @@
+.footerContainer{
+    height: 427px;
+    top: 3500px;
+    left: 3px;
+    padding: 0px 165px 0px 165px;
+    display: flex;
+    justify-content: space-between;
+    gap: 153px;
+    padding-bottom: 50px;
+    position: absolute;
+}
+
+.footerLeftDiv{
+    width: 281px;
+    height: 427px;
+    gap: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLeftDiv .firstHalf{
+    width: 278px;
+    height: 331px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLeftDiv .firstHalf .logo{
+    width: 145px;
+    height: 40px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.footerLeftDiv .firstHalf .logo .logoText{
+    width: 89px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 40px;
+    text-align: left;
+    color: #191825;
+}
+
+.footerLeftDiv .firstHalf .slogan{
+    width: 278px;
+    height: 259px;
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 36.8px;
+    text-align: left;
+    color: #19182580;
+}
+
+.footerLeftDiv .secondHalf{
+    width: 160px;
+    height: 32px;
+    gap: 32px;
+    display: flex;
+}
+
+.icon{
+    background: #5D50C6;
+    border-radius:50%;
+}
+
+.footerContainer .footerRightDiv{
+    width: 676px;
+    height: 272px;
+    display: flex;
+    gap: 121px;
+}
+
+.footerRightDiv .footerNav1{
+    width: 101px;
+    height: 211px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.footerRightDiv .navLayout1{
+    width: 101px;
+    height: 28px;
+}
+.footerRightDiv .navHeadingStyle{
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    text-align: left;
+}
+
+.footerRightDiv .footerNav1 .navlinkLayout1{
+    width: 52px;
+    height: 29px;
+}
+
+.footerRightDiv .footerNav1 .navlinkLayout2{
+    width: 58px;
+    height: 29px;
+}
+
+.footerRightDiv .footerNav1 .navlinkLayout3{
+    width: 57px;
+    height: 29px;
+}
+
+.footerRightDiv .footerNav1 .navlinkStyle{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #191825BF;
+}
+
+.footerRightDiv .footerNav2{
+    width: 130px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.footerRightDiv .navLayout2{
+    width: 83px;
+    height: 28px;
+}
+
+.footerRightDiv .footerNav2 .navlinkLayout1{
+    width: 115px;
+    height: 29px;
+}
+
+.footerRightDiv .footerNav2 .navlinkLayout2{
+    width: 130px;
+    height: 29px;
+}
+
+.footerRightDiv .footerNav2 .navlinkLayout3{
+    width: 46px;
+    height: 29px;
+}
+
+.footerRightDiv .footerNav2 .navlinkLayout4{
+    width: 38px;
+    height: 29px;
+}
+
+.footerRightDiv .footerNav3{
+    width: 203px;
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.footerRightDiv .navLayout3{
+    width: 89px;
+    height: 28px;
+}
+
+.footerRightDiv .footerNav3 .navlinkLayout1{
+    width: 169px;
+    height: 29px;
+}
+
+.footerRightDiv .footerNav3 .navlinkLayout2{
+    width: 149px;
+    height: 29px;
+}
+
+.footerRightDiv .footerNav3 .finalNavLink{
+    width: 203px;
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footerRightDiv .footerNav3 .finalNavLink .finalNavLinkLayout1{
+    width: 203px;
+    height: 29px;
+}
+
+.footerRightDiv .footerNav3 .finalNavLink .finalNavLinkLayout2{
+    width: 81px;
+    height: 29px;
+}

@@ -1,95 +1,48 @@
+import styles from "./page.module.css"
+import First from "@/app/components/Sections/First/First";
+import Second from "@/app/components/Sections/Second/Second";
+import Third from "@/app/components/Sections/Third/Third";
+import Fourth from "@/app/components/Sections/Fourth/Fourth";
+import Five from "@/app/components/Sections/Five/Five";
 import Image from "next/image";
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      <>
+          <div className={styles.arrows}>
+            <Image src="./arrow.svg" alt="Arrow" width={80} height={152}/>
+          </div>
+          <div className={styles.discountDiv}>
+              <Image src="./percentage.svg" alt="Percentage" width={40} height={40}/>
+              <span className={styles.discTxt}>Discounted Price</span>
+          </div>
+          <div className={styles.triangle}>
+            <Image src="./triangle.svg" alt="Triangle" width={183.86} height={176.35}/>
+          </div>
+          <div className={styles.feedback}>
+            <div className={styles.feedbackCricle}>
+                <Image src="./star.svg" alt="Star" width={40} height={36}/>
+            </div>
+          </div>
+          <div className={styles.sprialDesign}>
+            <Image src="./sprial.svg" alt="Sprial" width={332} height={351.95}/>
+          </div>
+          <div className={styles.ellipseTop}></div>
+          <div className={styles.ellipseMiddle}></div>
+          <div className={styles.firstContainer}>
+              <First/>
+          </div>
+          <div className={styles.secondContainer}>
+              <Second/>
+          </div>
+          <div className={styles.thridContainer}>
+              <Third/>
+          </div>
+          <div className={styles.fourthContainer}>
+              <Fourth/>
+          </div>
+          <div className={styles.fiveContainer}>
+              <Five/>
+          </div>
+      </>
   );
 }

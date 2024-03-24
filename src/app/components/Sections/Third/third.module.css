@@ -1,0 +1,81 @@
+.servicesDiv{
+    width: 444px;
+    height: 150px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.servicesTxt{
+    width: 143px;
+    height: 28px;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color: #F85E9F;
+}
+
+.topCategory{
+    width: 444px;
+    height: 106px;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: left;
+    color: #191825;
+}
+
+.servicesCards{
+    height: 443px;
+    gap: 21px;
+    display: flex;
+}
+
+.cards{
+    width: 250px;
+    padding: 64px;
+    gap: 64px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    z-index: 0;
+}
+
+.cardShadow{
+    box-shadow: 0px 0px 0px 0px #0000001A;
+    box-shadow: 0px 41px 89px 0px #0000001A;
+}
+
+.cardDiv{
+    width: 222px;
+    height: 153px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardTxt{
+    width: 222px;
+    height: 34px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: center;
+    color:#191825;
+}
+
+.cardDesc{
+    width: 222px;
+    height: 87px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: #19182580;
+}

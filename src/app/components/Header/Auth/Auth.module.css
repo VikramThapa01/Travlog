@@ -1,0 +1,49 @@
+.authContainer{
+    width: 230px;
+    height: 49px;
+    display: flex;
+}
+
+.loginBtn{
+    padding: 16px 32px 16px 32px;
+    gap: 8px;
+    border-radius: 100px;
+    border: none;
+    background: white;
+}
+
+.loginBtn:hover{border: 1px solid;
+    border: 1px solid #F85E9F;
+    color: #F85E9F;
+}
+
+.loginTxt{
+    width: 41px;
+    height: 17px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+.signupBtn{
+    padding: 16px 32px 16px 32px;
+    gap: 8px;
+    border-radius: 100px;
+    background: #5D50C6;
+    border: none;
+    color: white;
+}
+
+.signupBtn:hover {
+    background: #30296d;
+    display: inline-block;
+}
+
+.signupTxt{
+    width: 52px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+}

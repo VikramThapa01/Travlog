@@ -1,0 +1,97 @@
+.fiveDiv{
+    height: 608px;
+    top: 2595px;
+    left: 168px;
+    padding: 128px 64px 128px 64px;
+    gap: 64px;
+    border-radius: 32px;
+}
+
+.subscribeTxt{
+    width: 982px;
+    height: 192px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribeTxt .text1{
+    width: 982px;
+    height: 28px;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F85E9F;
+}
+
+.subscribeTxt .text2{
+    width: 982px;
+    height: 132px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66px;
+    text-align: center;
+    color: #191825;
+}
+
+.subscribeInpDiv {
+    width: 685px;
+    height: 96px;
+    padding: 32px;
+    gap: 16px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.subscribeInpField{
+    width: 685px;
+    height: 80px;
+    /*padding: 32px;*/
+    gap: 16px;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+}
+
+.emailImg{
+    padding-left:20px;
+    background: white;
+}
+
+.inputField{
+    border: none;
+    outline: none;
+    width: 550px;
+    padding: 32px;
+    display: flex;
+    gap: 16px;
+    font-size: 15px;
+    border-radius: 32px;
+}
+
+.subscribeBtnDiv{
+    width: 233px;
+    height: 85px;
+    padding: 32px 64px 32px 64px;
+    gap: 16px;
+    border-radius: 32px;
+    border: none;
+    background: #5D50C6;
+}
+
+.btnLabel{
+    width: 105px;
+    height: 28px;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    text-align: center;
+    color: #FFFFFF;
+}

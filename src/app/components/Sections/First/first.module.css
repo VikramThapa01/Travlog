@@ -1,0 +1,227 @@
+.firstSection{
+
+}
+.leftSection{
+    width: 427px;
+    height: 548px;
+    gap: 43px;
+}
+
+.rightSection{
+    width: 772px;
+    height: 713px;
+    border-radius: 100px 0px 0px 0px;
+    position: relative;
+}
+
+.leftDiv{
+    width: 427px;
+    height: 548px;
+    gap: 43px;
+    display: flex;
+    flex-direction: column;
+}
+
+.explortBtn{
+    width: 225px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    gap: 16px;
+    border-radius: 100px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 20px 20px 0px #00000017;
+
+}
+
+.explortBtn:hover{
+    border: 1px solid #F85E9F;
+}
+
+.exploreSpan{
+    width: 121px;
+    height: 17px;
+    font-size: 14px;
+    /*font-weight: 700;*/
+    line-height: 16.8px;
+    text-align: left;
+    color: #F85E9F;
+}
+
+.destSpan{
+    /*width: 597px;*/
+    height: 249px;
+    font-size: 69px;
+    font-weight: 700;
+    line-height: 82.8px;
+    text-align: left;
+}
+
+.topDestSpan{
+    font-size: 69px;
+    font-weight: 700;
+    line-height: 82.8px;
+    text-align: left;
+    color:#F85E9F;
+}
+
+
+.reviewSpan{
+    width: 427px;
+    height: 58px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #19182580;
+}
+
+.getStartedDiv{
+    width: 337px;
+    height: 56px;
+    gap: 16px;
+    display: flex;
+}
+
+.getStartBtn{
+    width: 140px;
+    height: 49px;
+    padding: 16px 32px 16px 32px;
+    gap: 8px;
+    border-radius: 100px;
+    background: #5D50C6;
+    color: white;
+    border: none;
+    font-weight: 700;
+    box-shadow: 0px 20px 20px 0px #00000017;
+}
+
+.getStartBtn:hover{
+    background: #30296d;
+}
+
+.demoBtn{
+    width: 181px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE
+}
+
+.demoTxt{
+    width: 85px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: #222831;
+}
+
+.locationBtn{
+    width: 166px;
+    height: 56px;
+    top: 488px;
+    left: 610px;
+    padding: 16px 32px 16px 32px;
+    gap: 8px;
+    border-radius: 100px;
+    background:  #FFFFFF;
+    display: flex;
+    align-items: center;
+    border: none;
+    position: absolute;
+    box-shadow: 0px 43px 26px 0px #0000000D;
+}
+
+.topPlaces{
+    width: 70px;
+    height: 17px;
+    font-size: 14px;
+    /*font-weight: bold;*/
+    line-height: 16.8px;
+    text-align: left;
+    color: #393E46;
+}
+
+
+.addUserDiv{
+    width: 64px;
+    height: 64px;
+    top: 590px;
+    left: 440px;
+    padding: 16px;
+    gap: 8px;
+    border-radius: 100px;
+    background: #FF5722;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    box-shadow: 0px 77px 31px 0px #00000003;
+}
+
+.sendDiv{
+    width: 64px;
+    height:64px;
+    top: 341px;
+    left: 45px;
+    padding: 16px;
+    gap: 8px;
+    border-radius: 100px;
+    background: #F85E9F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    box-shadow: 0px 77px 31px 0px #00000003;
+}
+
+.bestPlacePicture{
+    width: 575px;
+    height: 632px;
+    top: 75px;
+    left: 94px;
+    gap: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.twoPictures{
+    width: 272px;
+    height: 632px;
+    gap: 32px;
+}
+
+.picDefault{
+    border-radius: 32px;
+    background: #D9D9D9;
+}
+
+.worldMap{
+    /*left: 427px;*/
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

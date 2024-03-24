@@ -1,0 +1,165 @@
+.leftDiv{
+    width: 789.68px;
+    height: 696.68px;
+    position: relative;
+}
+
+.esvg1{
+    position: absolute;
+    top: 459px;
+    left: 632px;
+    z-index: 1
+}
+
+.esvg2{
+    position: absolute;
+    top: 299px;
+    left: 572px;
+    z-index: 1
+}
+
+.esvg3{
+    position: absolute;
+    top: 232px;
+    left: 735px;
+    z-index: 1
+}
+
+.esvg4{
+    position: absolute;
+    top: 105px;
+    left: 165px;
+    z-index: 1
+}
+
+.esvg5{
+    position: absolute;
+    top: 20px;
+    left: 584px;
+    z-index: 1
+}
+
+.packingImg{
+    position: absolute;
+    top: 0; /* Adjust as needed */
+    left: 0; /* Adjust as needed */
+    z-index: 1; /* Ensure the image is above the content */
+    transform: scaleX(-1);
+}
+
+.halfCircle{
+    position: absolute;
+    width: 705px;
+    height: 550px;
+    top: 129px;
+    border-radius: 0px 500px 500px 0px;
+    background: #FACD49;
+
+}
+
+.rightDiv{
+    width: 445px;
+    height: 667px;
+    gap: 64px;
+}
+
+.travelPoints{
+    width: 445px;
+    height: 269px;
+    gap: 32px;
+}
+
+.content1{
+    width: 445px;
+    height: 150px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content1 .heading{
+    width: 445px;
+    height: 28px;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color:#F85E9F;
+}
+
+.content1 .desc{
+    width: 445px;
+    height: 106px;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: left;
+    color:#191825;
+}
+
+.content1 .summaryDiv{
+    width: 445px;
+    height: 87px;
+}
+
+
+.content1 .summaryDiv .summaryTxt{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #19182580;
+}
+
+.stats{
+    width: 445px;
+    height: 334px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.stats .statsDiv{
+    width: 445px;
+    gap: 32px;
+    display: flex;
+}
+
+.statsContentFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.stats .statsDiv .statsContent{
+    width: 206.5px;
+    padding: 32px;
+    gap: 16px;
+    border-radius: 32px;
+    background: #FFFFFF;
+    border: 1px solid #1918251A;
+}
+
+.stats .statsDiv .statsContent .span1{
+    width: 84px;
+    height: 42px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    color:#FF5722
+}
+
+.stats .statsDiv .statsContent  .span2{
+    width: 142px;
+    height: 29px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color:#191825;
+}
